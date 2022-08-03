@@ -16,7 +16,7 @@ public class Main {
 		System.out.println(count);
 		System.out.println("");
 		
-		//小文字を大文字にして出力
+		//小文字を大文字にして
 		tohoku_regions.stream().map(region -> region.toUpperCase()).forEach(region -> System.out.println(region));
 		System.out.println("");
 		
